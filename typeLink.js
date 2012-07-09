@@ -240,8 +240,8 @@ window.onload = function() {
 
 	//The css
 	// var str= ".typeLinkHint{background-color: #474747;	opacity: 1.8;position:fixed;	text-overflow:ellipsis;	overflow: hidden;	width:20%;	left: 40%;	padding: 15px;	margin-left:auto;	margin-right:auto;	top:0;		visibility: hidden;	background: #222;	font-size: 200px;	color: #222;	text-shadow: 0px 2px 3px #666;	-webkit-box-shadow: 0px 2px 3px #555;	-moz-box-shadow: 0px 2px 3px #555;	-webkit-border-radius: 4px;border-radius: 4px;	-moz-border-radius: 4px;";
-	var str= "#typeLinkLabel{position:fixed;	text-overflow:ellipsis;	overflow: hidden;	width:20%;	left: 40%;	padding: 15px;	top:0;		visibility: hidden;	font-size: 20px;	color: #222;	text-shadow: 0px 1px 1px #666;font-family: 'Arial';}";
-	str+=" #typeLinkLabelBk{position:fixed; background-color: #474747;opacity: 0.94; height:30px; width:20%;	left: 40%;	padding: 14px;	top:0; visibility: hidden;	overflow: auto;-webkit-box-shadow: 0px 2px 3px #555;	-moz-box-shadow: 0px 2px 3px #555;	-webkit-border-radius: 4px;border-radius: 4px;	-moz-border-radius: 4px;}";
+	var str= "#typeLinkLabel{position:fixed;	text-overflow:ellipsis;	overflow: hidden;	width:20%;	left: 40%;	padding: 15px;	top:0;		visibility: hidden;	font-size: 18px;	color: #222;	text-shadow: 0px 1px 1px #888;font-family: 'Arial';}";
+	str+=" #typeLinkLabelBk{position:fixed; background-color: #666;opacity: 0.94; height:30px; width:20%;	left: 40%;	padding: 14px;	top:0; visibility: hidden;	overflow: auto;-webkit-box-shadow: 0px 2px 3px #555;	-moz-box-shadow: 0px 2px 3px #555;	-webkit-border-radius: 4px;border-radius: 4px;	-moz-border-radius: 4px;}";
 	var pa= document.getElementsByTagName('head')[0] ;
 	var el= document.createElement('style');
 	el.type= 'text/css';
