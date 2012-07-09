@@ -1,3 +1,5 @@
+(function(){
+var oldOnload = window.onload;
 //TODO array instead of |
 window.onload = function() {
 	String.prototype.startsWith = function(str) {
@@ -247,6 +249,10 @@ window.onload = function() {
 	if(el.styleSheet) el.styleSheet.cssText= str;// IE method
 	else el.appendChild(document.createTextNode(str));// others
 	pa.appendChild(el);
+
+  // if onload function existed, calls it.
+	if('function'===typeof oldOnload) {
+    oldOnload.apply(this, arguments);
+  }
 }
-
-
+})();
